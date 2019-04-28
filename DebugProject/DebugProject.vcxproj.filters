@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Debug主调试">
+      <UniqueIdentifier>{bb7814cf-c6e5-4405-8b87-772c037f9cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Capstone反汇编引擎">
+      <UniqueIdentifier>{70df3015-8f6f-4c30-9fdc-dde783fafae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KeyStone汇编引擎">
+      <UniqueIdentifier>{42a9bd49-0067-431b-893e-186d0a4f7d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="指令帮助文档">
+      <UniqueIdentifier>{ff8c2229-e279-4e4e-91d7-2f68c4994aec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="查看/修改 寄存器">
+      <UniqueIdentifier>{11ca7b3d-9e7e-455e-af1b-02df75aac3bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="查看/修改 内存">
+      <UniqueIdentifier>{44e14ffe-69c9-43ae-81b0-2ede88fe1d39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="查看模块数据">
+      <UniqueIdentifier>{a9cd92b7-83ae-4e67-8dc6-be6a9088b5d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="查看栈数据">
+      <UniqueIdentifier>{6003ba4c-2c04-4aa6-b9fd-0c8b141e2524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows颜色输出类">
+      <UniqueIdentifier>{68dde4a9-dbe0-4d1e-a024-56bb316df243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="导入表导出表加载">
+      <UniqueIdentifier>{00e1b039-acab-4d5e-a2d9-0cc40792b410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Im/Ex公共类">
+      <UniqueIdentifier>{8fd5430d-7f2b-472a-8298-a4342ce0d2d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="硬件/内存 断点">
+      <UniqueIdentifier>{70654924-9aac-4bdb-869d-9b6124cd48f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UWindows.h">
+      <Filter>Windows颜色输出类</Filter>
+    </ClInclude>
+    <ClInclude Include="MasterExceptionHandler.h">
+      <Filter>Debug主调试</Filter>
+    </ClInclude>
+    <ClInclude Include="Capstone.h">
+      <Filter>Capstone反汇编引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="UKeystone.h">
+      <Filter>KeyStone汇编引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandHelpDocument.h">
+      <Filter>指令帮助文档</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterInfoData.h">
+      <Filter>查看/修改 寄存器</Filter>
+    </ClInclude>
+    <ClInclude Include="StackInfoData.h">
+      <Filter>查看栈数据</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryInfoData.h">
+      <Filter>查看/修改 内存</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportTable.h">
+      <Filter>导入表导出表加载</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportTable.h">
+      <Filter>导入表导出表加载</Filter>
+    </ClInclude>
+    <ClInclude Include="PeNtHeader.h">
+      <Filter>Im/Ex公共类</Filter>
+    </ClInclude>
+    <ClInclude Include="HardwareBreakPoint.h">
+      <Filter>硬件/内存 断点</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryBreakPoint.h">
+      <Filter>硬件/内存 断点</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleEntry.h">
+      <Filter>查看模块数据</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UWindows.cpp">
+      <Filter>Windows颜色输出类</Filter>
+    </ClCompile>
+    <ClCompile Include="MasterExceptionHandler.cpp">
+      <Filter>Debug主调试</Filter>
+    </ClCompile>
+    <ClCompile Include="Capstone.cpp">
+      <Filter>Capstone反汇编引擎</Filter>
+    </ClCompile>
+    <ClCompile Include="Ukeystone.cpp">
+      <Filter>KeyStone汇编引擎</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandHelpDocument.cpp">
+      <Filter>指令帮助文档</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterInfoData.cpp">
+      <Filter>查看/修改 寄存器</Filter>
+    </ClCompile>
+    <ClCompile Include="StackInfoData.cpp">
+      <Filter>查看栈数据</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryInfoData.cpp">
+      <Filter>查看/修改 内存</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportTable.cpp">
+      <Filter>导入表导出表加载</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportTable.cpp">
+      <Filter>导入表导出表加载</Filter>
+    </ClCompile>
+    <ClCompile Include="PeNtHeader.cpp">
+      <Filter>Im/Ex公共类</Filter>
+    </ClCompile>
+    <ClCompile Include="HardwareBreakPoint.cpp">
+      <Filter>硬件/内存 断点</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryBreakPoint.cpp">
+      <Filter>硬件/内存 断点</Filter>
+    </ClCompile>
+    <ClCompile Include="MoudleEntry.cpp">
+      <Filter>查看模块数据</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
